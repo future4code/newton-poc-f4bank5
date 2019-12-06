@@ -6,7 +6,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node build/exer01.js --target es6"
+    "criar": "tsc && node build/criarConta.js --target es6",
+    "ver": "tsc && node build/getAllAccounts.js --target es6",
+    "saldo": "tsc && node build/getBalance.js --target es6",
+    "add": "tsc && node build/addBalance.js --target es6"
   },
   "author": "",
   "license": "ISC",
